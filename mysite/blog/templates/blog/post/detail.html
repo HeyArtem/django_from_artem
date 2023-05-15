@@ -1,0 +1,40 @@
+{% extends "blog/base.html" %}
+
+{% block title %}
+    {{ post.title }}
+{% endblock %}
+
+{% block content %}
+    <h1>{{ post.title }}</h1>
+
+    <p class="date">
+        Опубликован: {{ post.publish }}, автор: {{ post.author }}
+    </p>
+    {{ post.body|linebreaks }}  
+
+    <!-- Общее число ком-ев к посту -->
+    {% with comments.count as total_comments %}
+        <h2>
+            {{ total_comments }} comment{{ total_comments|pluralize }}
+            <hr>
+        </h2>
+    {% endwith %}
+
+    <!-- список активных комментариев к посту -->
+    {% for comment in comments %}
+        <div class="comment">
+            <p class="info">
+                Комментарий {{ forloop.counter }}, 
+                автор: {{ comment.name }},
+                создан: {{ comment.created }}
+            </p>
+            {{ comment.body|linebreaks }}
+        </div>
+        {% empty %}
+            <p>Пока комментариев нет.</p>
+    {% endfor %}
+
+    <!-- добавляю форму комментария -->
+    {% include "blog/post/includes/comment_form.html" %}
+
+{% endblock %}

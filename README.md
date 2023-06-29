@@ -15,9 +15,9 @@
 
 
 
-![alt-текст](https://github.com/HeyArtem/django_from_artem/pictures/1.png "Exemple 1")
-![alt-текст](https://github.com/HeyArtem/django_from_artem/pictures/2.png "Exemple 1")
-![alt-текст](https://github.com/HeyArtem/django_from_artem/pictures/3.png "Exemple 1")
-![alt-текст](https://github.com/HeyArtem/django_from_artem/pictures/4.png "Exemple 1")
-![alt-текст](https://github.com/HeyArtem/django_from_artem/pictures/5.png "Exemple 1")
+![alt-текст](https://github.com/HeyArtem/django_from_artem/blob/main/pictures/1.png "Exemple 1")
+![alt-текст](https://github.com/HeyArtem/django_from_artem/blob/main/pictures/2.png "Exemple 2")
+![alt-текст](https://github.com/HeyArtem/django_from_artem/blob/main/pictures/3.png "Exemple 3")
+![alt-текст](https://github.com/HeyArtem/django_from_artem/blob/main/pictures/4.png "Exemple 4")
+![alt-текст](https://github.com/HeyArtem/django_from_artem/blob/main/pictures/5.png "Exemple 5")
 

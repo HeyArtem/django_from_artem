@@ -24,9 +24,24 @@ class PostAdmin(admin.ModelAdmin):
     ordering = ['status', 'publish']
 
 
+
 # комментарии
 @admin.register(Comment)
 class CommentAdmin(admin.ModelAdmin):
-    list_display = ['name', 'email', 'post', 'created', 'active']
+    # list_display = ['name', 'email', 'post', 'created', 'active']
+    
+    # без Email
+    # list_display = ['name', 'post', 'created', 'active']
+
+    # # без Email, замена name на Имя
+    list_display = ['Имя', 'post', 'created', 'active']
+
     list_filter = ['active', 'created', 'updated']
-    search_fields = ['name', 'email', 'body']
+    
+    # search_fields = ['name', 'email', 'body']
+    
+    # без Email
+    # search_fields = ['name', 'body']    
+
+    # без Email, замена name на Имя
+    search_fields = ['Имя', 'Комментарий']

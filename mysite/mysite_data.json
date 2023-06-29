@@ -1,0 +1,1611 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-05-10T23:54:30.766Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-05-10T23:57:21.621Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "социально-ориентированный национальный",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-05-10T23:58:10.745Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "социально-ориентированный национальный",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-05-10T23:58:29.082Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "социально-ориентированный национальный",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-05-10T23:59:02.117Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "социально-ориентированный",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-05-11T00:43:23.897Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Новая парадигма реальности: кровь стынет в жилах",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-05-12T00:28:01.726Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Допустим, чистосердечное признание облегчает душу",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-05-12T00:54:32.968Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Инцидент не исчерпан: зима близко",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-05-12T16:46:05.407Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Новая парадигма реальности: кровь стынет в жилах",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-05-12T16:47:01.193Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Новая парадигма реальности: кровь стынет в жилах",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-05-12T17:10:27.932Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by Некто on социально-ориентированный",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-05-15T14:36:01.737Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Comment by Из поста on социально-ориентированный",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-05-15T15:26:37.450Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Comment by Иван Васильевич Немчинский on социально-ориентированный",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-05-16T23:42:25.135Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Comment by Джордж on Новая парадигма реальности: кровь стынет в жилах",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-05-16T23:43:01.409Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Comment by Джордж on Новая парадигма реальности: кровь стынет в жилах",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-05-16T23:45:28.287Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Comment by Джордж on Новая парадигма реальности: кровь стынет в жилах",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-05-16T23:45:49.425Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Comment by Джордж on Новая парадигма реальности: кровь стынет в жилах",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-05-16T23:46:16.332Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Comment by Джордж on Новая парадигма реальности: кровь стынет в жилах",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-05-16T23:51:06.838Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Comment by Инна on Новая парадигма реальности: кровь стынет в жилах",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-05-16T23:59:21.575Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Comment by Семен on Новая парадигма реальности: кровь стынет в жилах",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043e\\u043c\\u043c\\u0435\\u043d\\u0442\\u0430\\u0440\\u0438\\u0439\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-05-17T00:05:52.503Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Господа, средства индивидуальной защиты оказались бесполезны",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-05-17T00:06:51.614Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Comment by жжжжжжжжжжжжжжж on Господа, средства индивидуальной защиты оказались бесполезны",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-05-17T00:09:02.933Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Comment by ИзАдминки on Господа, средства индивидуальной защиты оказались бесполезны",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-05-17T00:11:50.304Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Comment by ффффффффффффффф on Господа, средства индивидуальной защиты оказались бесполезны",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-05-17T00:14:39.100Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Прототип нового сервиса — это как глас грядущего поколения",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-05-17T00:15:45.531Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "Comment by ИзАдминки on Прототип нового сервиса — это как глас грядущего поколения",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-05-21T13:48:46.924Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Прототип нового сервиса — это как глас грядущего поколения",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Img\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-06-15T23:15:22.393Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Music",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-06-15T23:15:41.038Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Jazz",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-06-15T23:16:43.568Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Jango",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-06-15T23:25:08.922Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Прототип нового сервиса — это как глас грядущего поколения",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-06-15T23:27:31.087Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Господа, средства индивидуальной защиты оказались бесполезны",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Img\", \"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-06-15T23:28:09.163Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Новая парадигма реальности: кровь стынет в жилах",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Img\", \"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-06-15T23:29:18.518Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Инцидент не исчерпан: зима близко",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Img\", \"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-06-18T13:06:29.210Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Допустим, чистосердечное признание облегчает душу",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-06-19T23:30:45.919Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "# ПОст с markdown <br/>Home work for UAI, lesson 17.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-06-19T23:32:11.191Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "# ПОст с markdown",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-06-19T23:32:26.876Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "ПОст с markdown",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-06-19T23:36:09.934Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "ПОст с markdown",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-06-19T23:38:52.177Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "ПОст с markdown",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2023-06-19T23:39:49.820Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "ПОст с markdown",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2023-06-19T23:40:55.306Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "ПОст с markdown",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2023-06-19T23:42:22.170Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "ПОст с markdown",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2023-06-20T00:10:41.216Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "ПОст с markdown где тут",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2023-06-20T00:17:11.155Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2023-06-20T00:18:06.841Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "pizdarulem.ru",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$K1rk69CBDgJQpGutTxBIIU$6iDXa0mfcZyc7MdKfFcF+qtJJwnzxCwN6IWhbc+hSLE=",
+    "last_login": "2023-06-15T22:56:50.241Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-05-10T23:42:55.439Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2utqb6jkorc51uxsjwqtolozqyalyjcb",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllrx19Kes5gbbwLDiBbipMKcXcSKQW0b2beWyRcl5LWznOaSJyFEqffbcT85LoDemC9N5lbXeZplLsiD9rltRG_Lof7d1Cwl63WWWEgi0T2pp3lzGwduMEPDFEbBXHjDoIHjwq9JYZAUeVs0BmKXny-3XI3cQ:1pwtTW:IVCY2YM43zVY8qTFR9qtPc-ZZBZfxUIg15P7qBeSOVk",
+    "expire_date": "2023-05-24T23:44:02.127Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "921gjpakifd1c1z7cpa4voiwc477lf7o",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllrx19Kes5gbbwLDiBbipMKcXcSKQW0b2beWyRcl5LWznOaSJyFEqffbcT85LoDemC9N5lbXeZplLsiD9rltRG_Lof7d1Cwl63WWWEgi0T2pp3lzGwduMEPDFEbBXHjDoIHjwq9JYZAUeVs0BmKXny-3XI3cQ:1q6ey4:xF5IvoqyUoj8WGDkNPHH0RW3eCby36Hm7RLtW0jGXC8",
+    "expire_date": "2023-06-20T22:15:56.253Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mlnv7e51zk6i64hydaofzi2us3lrn0gn",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllrx19Kes5gbbwLDiBbipMKcXcSKQW0b2beWyRcl5LWznOaSJyFEqffbcT85LoDemC9N5lbXeZplLsiD9rltRG_Lof7d1Cwl63WWWEgi0T2pp3lzGwduMEPDFEbBXHjDoIHjwq9JYZAUeVs0BmKXny-3XI3cQ:1q9vta:vsPeB2jmSzn2MyVx35m1h9l0LcW-Soo6gMUdnsfVJI0",
+    "expire_date": "2023-06-29T22:56:50.246Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ny57z24vbisc7jlhu8l0sh8wi5aumh8y",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllrx19Kes5gbbwLDiBbipMKcXcSKQW0b2beWyRcl5LWznOaSJyFEqffbcT85LoDemC9N5lbXeZplLsiD9rltRG_Lof7d1Cwl63WWWEgi0T2pp3lzGwduMEPDFEbBXHjDoIHjwq9JYZAUeVs0BmKXny-3XI3cQ:1q0jPe:U13vagJF7MUdp2TB9MIafhJifQcsnzpfaV680DoW8_M",
+    "expire_date": "2023-06-04T13:47:54.644Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "социально-ориентированный",
+    "slug": "socialno-orientirovannyj",
+    "author": 1,
+    "body": "Равным образом, курс на социально-ориентированный национальный проект требует от нас анализа новых предложений. Лишь многие известные личности освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, указаны как претенденты на роль ключевых факторов. А ещё явные признаки победы институционализации представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок.",
+    "publish": "2023-05-10T23:58:32Z",
+    "created": "2023-05-10T23:59:02.116Z",
+    "updated": "2023-05-10T23:59:02.116Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Новая парадигма реальности: кровь стынет в жилах",
+    "slug": "novaya-paradigma-realnosti-krov-stynet-v-zhilah",
+    "author": 1,
+    "body": "Кстати, сторонники тоталитаризма в науке объявлены нарушающими общечеловеческие нормы этики и морали. Не следует, однако, забывать, что существующая теория говорит о возможностях форм воздействия. С учётом сложившейся международной обстановки, понимание сути ресурсосберегающих технологий напрямую зависит от прогресса профессионального сообщества.",
+    "publish": "2023-05-11T00:42:05Z",
+    "created": "2023-05-11T00:43:23.896Z",
+    "updated": "2023-05-11T00:43:23.896Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Допустим, чистосердечное признание облегчает душу",
+    "slug": "dopustim-chistoserdechnoe-priznanie-oblegchaet-dushu",
+    "author": 1,
+    "body": "Равным образом, новая модель организационной деятельности предоставляет широкие возможности для анализа существующих паттернов поведения. Современные технологии достигли такого уровня, что высокотехнологичная концепция общественного уклада предполагает независимые способы реализации существующих финансовых и административных условий. Кстати, явные признаки победы институционализации лишь добавляют фракционных разногласий и своевременно верифицированы.",
+    "publish": "2023-05-12T00:27:27Z",
+    "created": "2023-05-12T00:28:01.725Z",
+    "updated": "2023-06-18T13:06:29.204Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Инцидент не исчерпан: зима близко",
+    "slug": "incident-ne-ischerpan-zima-blizko",
+    "author": 1,
+    "body": "Разнообразный и богатый опыт говорит нам, что социально-экономическое развитие, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для форм воздействия. Приятно, граждане, наблюдать, как многие известные личности и по сей день остаются уделом либералов, которые жаждут быть своевременно верифицированы. Наше дело не так однозначно, как может показаться: реализация намеченных плановых заданий, в своём классическом представлении, допускает внедрение кластеризации усилий.",
+    "publish": "2023-05-12T00:53:57Z",
+    "created": "2023-05-12T00:54:32.967Z",
+    "updated": "2023-06-15T23:29:18.510Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "Новая парадигма реальности: кровь стынет в жилах",
+    "slug": "novaya-paradigma-realnosti-krov-stynet-v-zhilah",
+    "author": 1,
+    "body": "Кстати, сторонники тоталитаризма в науке объявлены нарушающими общечеловеческие нормы этики и морали. Не следует, однако, забывать, что существующая теория говорит о возможностях форм воздействия. С учётом сложившейся международной обстановки, понимание сути ресурсосберегающих технологий напрямую зависит от прогресса профессионального сообщества.",
+    "publish": "2023-05-12T16:45:45Z",
+    "created": "2023-05-12T16:46:05.406Z",
+    "updated": "2023-06-15T23:28:09.154Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Господа, средства индивидуальной защиты оказались бесполезны",
+    "slug": "gospoda-sredstva-individualnoj-zashity-okazalis-bespolezny",
+    "author": 1,
+    "body": "Пост создан из админки!\r\n\r\nПрежде всего, выбранный нами инновационный путь способствует подготовке и реализации анализа существующих паттернов поведения. Принимая во внимание показатели успешности, консультация с широким активом играет определяющее значение для экспериментов, поражающих по своей масштабности и грандиозности. Не следует, однако, забывать, что дальнейшее развитие различных форм деятельности предопределяет высокую востребованность благоприятных перспектив.",
+    "publish": "2023-05-17T00:04:04Z",
+    "created": "2023-05-17T00:05:52.502Z",
+    "updated": "2023-06-15T23:27:31.081Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "Прототип нового сервиса — это как глас грядущего поколения",
+    "slug": "prototip-novogo-servisa-eto-kak-glas-gryadushego-pokoleniya",
+    "author": 1,
+    "body": "Внезапно, непосредственные участники технического прогресса призывают нас к новым свершениям, которые, в свою очередь, должны быть обнародованы. Внезапно, явные признаки победы институционализации, вне зависимости от их уровня, должны быть смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности. Ясность нашей позиции очевидна: убеждённость некоторых оппонентов говорит о возможностях глубокомысленных рассуждений.",
+    "publish": "2023-05-17T00:14:00Z",
+    "created": "2023-05-17T00:14:39.099Z",
+    "updated": "2023-06-15T23:25:08.915Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "ПОст с markdown где тут",
+    "slug": "post-s-markdown-brhome-work-for-uai-lesson-17",
+    "author": 1,
+    "body": "## Тех.детали:\r\n* _Flask_\r\n* _Flask-SQLAlchemy_\r\n* _sqlite3_\r\n* _flask_migrate_\r\n* _Jinja2_\r\n* _requests_\r\n* _BeautifulSoup_\r\n* _os_\r\n* _json_\r\n* _datetime_\r\n<br/><br/>\r\n<hr>\r\n\r\n\r\n## Описание:\r\nСайт парсит данные с сайта www.proficosmetics.ru (раздел шампуни), сохраняет их в json. Json сохраняется в БД sqlite3. \r\n\r\nПользователь имеет возможность самостоятельно (заполнив форму вручную) внести запись в БД. Пользователь может сортировать, обновлять, удалять данные в БД. \r\n\r\nТак же реализовал боковой слайдер (так же с возможностями сортировки)\r\n<br/><br/>\r\n<hr>\r\n\r\n\r\n## Архитектура:\r\n-  app.py<br/>\r\noсновной фаил, который нужно запускать [$ python app.py]\r\n\r\n- data<br/>\r\nдиректория (создается автоматически), парсер сохраняет собранную информацию (первую страницу и json c собранной информацей с сайта www.proficosmetics.ru)\r\n\r\n- instance<br/>\r\nдиректория с БД shampoo.db (создается автоматически)\r\n\r\n- pictures<br/>\r\nскриншоты для README\r\n\r\n- static<br/>\r\nдиректория со стилями\r\n\r\n- templates<br/>\r\nдиректория с html-страницами\r\n\r\n- notes_uai_lesson_17_Sqlite<br/>\r\nрабочие записи\r\n\r\n- profcosmetics.py<br/>\r\nскрипт с парсером, собирает данные с сайта www.proficosmetics.ru, сохряняет в директорию data\r\n<br/><br/>\r\n<hr>\r\n\r\n\r\n\r\n## Особенности\r\nПользователь может:\r\n* Парсинг - спарсить новые данные\r\n* Обновить БД - перенести данные в БД\r\n* Очистить БД - очистить БД. Спарсенный json не удаляется\r\n* Добавить запись в БД - на странице с формой, ввести свои данные в БД\r\n* Сортировка по (-id, -Цене, -Имени) - отсортировать данные\r\n\r\nБоковой слайдер:\r\n* Домашняя страница\r\n* Очистить БД\r\n* Сортировка по (-id, -Цене, -Имени, -Дате) - отсортировать данные\r\n<br/><br/>\r\n<hr>\r\n\r\n\r\n\r\n## Примечание:\r\nHtml, css, div- с этим почти не работал. Сосредоточился на создании и работе с БД.<br/>\r\nМожно было реализовать удаление отдельного поста, попробовать работать с картинками.\r\n<br/><br/>\r\n<hr>\r\n\r\n\r\n## Что бы запустить проект:\r\n- создать директорию на компьютере\r\n- открыть нужный репозиторий-Code-HTTPS-скопировать ссылку\r\n```\r\n$ git clone +ссылка\r\n```\r\n- перейти в паку с проектом\r\n\r\n\r\n- создать виртуальное окружение <br/>\r\n```\r\n$ python3 -m venv venv\r\n```\r\n- активировать виртуальное окружение \r\n```\r\n$ source venv/bin/activate\r\n``` \r\n\r\n```\r\n$ pip install -U pip setuptools\r\n``` \r\n\r\n- установить библиотеки из requirements.txt \r\n```\r\n$ pip install -r requirements.txt \r\n```\r\n\r\n\r\n- открыть проект в VS Code\r\n```\r\n$ code .\r\n```\r\n\r\n- Возможно потребуются свежие headers (www.proficosmetics.ru)\r\n<br/><br/>\r\n<hr>\r\n<hr>\r\n![alt-текст](https://klike.net/uploads/posts/2019-03/1551511791_8.jpg \"Baner\")",
+    "publish": "2023-06-19T23:29:08Z",
+    "created": "2023-06-19T23:30:45.907Z",
+    "updated": "2023-06-20T00:10:41.212Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 2,
+    "Имя": "Некто",
+    "Комментарий": "Повседневная практика показывает, что начало повседневной работы по формированию позиции в значительной степени обуславливает создание систем массового участия. Разнообразный и богатый опыт консультация с широким активом играет важную роль в формировании новых предложений.",
+    "created": "2023-05-12T17:10:27.931Z",
+    "updated": "2023-05-12T17:10:27.931Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 2,
+    "Имя": "Из поста",
+    "Комментарий": "Этот пост я добавляю с сайте, не из админки\r\nИзПоста@bk.re - не валид\r\n\r\nFromSite@bk.re id valid",
+    "created": "2023-05-15T13:57:42.261Z",
+    "updated": "2023-05-15T13:57:42.261Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 2,
+    "Имя": "Из поста",
+    "Комментарий": "Этот пост я добавляю с сайте, не из админки\r\nИзПоста@bk.re - не валид\r\n\r\nFromSite@bk.re id valid",
+    "created": "2023-05-15T13:58:42.152Z",
+    "updated": "2023-05-15T14:36:01.736Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 2,
+    "Имя": "Иван Васильевич Немчинский",
+    "Комментарий": "С другой стороны дальнейшее развитие различных форм деятельности играет важную роль в формировании дальнейших направлений развития. Таким образом новая модель организационной деятельности позволяет выполнять важные задания по разработке существенных финансовых и административных условий. Разнообразный и богатый опыт консультация с широким активом играет важную роль в формировании дальнейших направлений развития. Повседневная практика показывает, что начало повседневной работы по формированию позиции играет важную роль в формировании дальнейших направлений развития.\r\n\r\nТоварищи! начало повседневной работы по формированию позиции влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. С другой стороны начало повседневной работы по формированию позиции требуют от нас анализа позиций, занимаемых участниками в отношении поставленных задач. Таким образом постоянный количественный рост и сфера нашей активности требуют от нас анализа форм развития.",
+    "created": "2023-05-15T14:34:32.829Z",
+    "updated": "2023-05-15T15:26:37.449Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 5,
+  "fields": {
+    "post": 2,
+    "Имя": "Василий",
+    "Комментарий": "Тестовый комент, Емайла в форме нет",
+    "created": "2023-05-16T23:29:13.232Z",
+    "updated": "2023-05-16T23:29:13.232Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 7,
+  "fields": {
+    "post": 6,
+    "Имя": "Инна",
+    "Комментарий": "Тестовый коммент от Инна с сайта после того как я изменил name на Имя\r\n02:44\r\n\r\nДополнил из админки\r\n02:50",
+    "created": "2023-05-16T23:44:18.238Z",
+    "updated": "2023-05-16T23:51:06.837Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 8,
+  "fields": {
+    "post": 3,
+    "Имя": "Джордж",
+    "Комментарий": "Джордж коментит из админки",
+    "created": "2023-05-16T23:46:16.331Z",
+    "updated": "2023-05-16T23:46:16.331Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 9,
+  "fields": {
+    "post": 6,
+    "Имя": "Семен",
+    "Комментарий": "Я заменил body на Комментарий.\r\nКомментирую с сайта\r\n02:57\r\n\r\nДополнил из админки\r\n02:59",
+    "created": "2023-05-16T23:57:57.652Z",
+    "updated": "2023-05-16T23:59:21.574Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 10,
+  "fields": {
+    "post": 7,
+    "Имя": "жжжжжжжжжжжжжжж",
+    "Комментарий": "Коммент и пост из админки\r\n\r\nПрежде всего, выбранный нами инновационный путь способствует подготовке и реализации анализа существующих паттернов поведения. Принимая во внимание показатели успешности, консультация с широким активом играет определяющее значение для экспериментов, поражающих по своей масштабности и грандиозности. Не следует, однако, забывать, что дальнейшее развитие различных форм деятельности предопределяет высокую востребованность благоприятных перспектив.\r\n\r\n03:06",
+    "created": "2023-05-17T00:06:51.613Z",
+    "updated": "2023-05-17T00:06:51.613Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 11,
+  "fields": {
+    "post": 7,
+    "Имя": "ИзАдминки",
+    "Комментарий": "Еще один коммент из админки, к посту и коменту уже созданному из админки\r\n03:08",
+    "created": "2023-05-17T00:09:02.932Z",
+    "updated": "2023-05-17T00:09:02.933Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 12,
+  "fields": {
+    "post": 7,
+    "Имя": "ффффффффффффффф",
+    "Комментарий": "Опять коммент из админки к посту созданному на сайте.\r\nПохоже они не выводятся",
+    "created": "2023-05-17T00:11:50.304Z",
+    "updated": "2023-05-17T00:11:50.304Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 13,
+  "fields": {
+    "post": 8,
+    "Имя": "ИзАдминки",
+    "Комментарий": "Комментарий  ИзАдминки  Комментарий  ИзАдминки  Комментарий  ИзАдминки  Комментарий  ИзАдминки  Комментарий  ИзАдминки  Комментарий  ИзАдминки  Комментарий  ИзАдминки  Комментарий  ИзАдминки  Комментарий  ИзАдминки  Комментарий  ИзАдминки  Комментарий  ИзАдминки  Комментарий  ИзАдминки  Комментарий  ИзАдминки  Комментарий  ИзАдминки  Комментарий  ИзАдминки",
+    "created": "2023-05-17T00:15:45.530Z",
+    "updated": "2023-05-17T00:15:45.530Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 14,
+  "fields": {
+    "post": 7,
+    "Имя": "Art 18.06",
+    "Комментарий": "the comment",
+    "created": "2023-06-17T23:06:52.850Z",
+    "updated": "2023-06-17T23:06:52.850Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 15,
+  "fields": {
+    "post": 9,
+    "Имя": "Art",
+    "Комментарий": "А картинка то вывелаь!!!!\r\nКриво, но все же",
+    "created": "2023-06-19T23:43:16.019Z",
+    "updated": "2023-06-19T23:43:16.019Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 16,
+  "fields": {
+    "post": 9,
+    "Имя": "Арт",
+    "Комментарий": "Это второй коммент\r\nПрименяю тоже markdown\r\n\r\n## Особенности\r\nПользователь может:\r\n* Парсинг - спарсить новые данные\r\n* Обновить БД - перенести данные в БД\r\n* Очистить БД - очистить БД. Спарсенный json не удаляется\r\n* Добавить запись в БД - на странице с формой, ввести свои данные в БД\r\n* Сортировка по (-id, -Цене, -Имени) - отсортировать данные",
+    "created": "2023-06-19T23:44:32.472Z",
+    "updated": "2023-06-19T23:44:32.472Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 17,
+  "fields": {
+    "post": 9,
+    "Имя": "Арт",
+    "Комментарий": "Маркдоун в комментах не работает!!!",
+    "created": "2023-06-19T23:45:21.930Z",
+    "updated": "2023-06-19T23:45:21.930Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 18,
+  "fields": {
+    "post": 9,
+    "Имя": "Артт",
+    "Комментарий": "Это четвертый коммент",
+    "created": "2023-06-19T23:46:15.117Z",
+    "updated": "2023-06-19T23:46:15.117Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 19,
+  "fields": {
+    "post": 9,
+    "Имя": "Арт",
+    "Комментарий": "ИИИИИИИИИ\r\nэто \r\n-п\r\n-я\r\nт\r\nы\r\nй\r\n\r\nко\r\nмм\r\nен\r\nта\r\nрий",
+    "created": "2023-06-19T23:47:13.018Z",
+    "updated": "2023-06-19T23:47:13.018Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 20,
+  "fields": {
+    "post": 9,
+    "Имя": "Арт",
+    "Комментарий": "Это 6 коммент\r\nУ этоге поста было 5 комментов\r\nНо он не был в топе\r\nПочему???",
+    "created": "2023-06-19T23:48:56.874Z",
+    "updated": "2023-06-19T23:48:56.874Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "Jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "Jango",
+    "slug": "jango"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "music",
+    "slug": "music_1"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz_1"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "Django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "pizdarulem.ru",
+    "name": "pizdarulem.ru"
+  }
+}
+]

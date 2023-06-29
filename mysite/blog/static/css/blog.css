@@ -4,6 +4,21 @@ body {
     font-family:helvetica, sans-serif;     
 }
 
+.foto-star{
+    width: 600px;
+    background-color: #f7ec86;
+    text-align: center;
+    margin: auto ;
+    border-bottom: 5px solid rgb(30, 49, 219);
+}
+
+.foto-star img{
+    width: 300px;
+    display: block;
+    padding: 20px;
+    margin: 30;
+}
+
 a { 
     color:#066696;
     text-decoration:none; 

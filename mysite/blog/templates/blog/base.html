@@ -1,3 +1,4 @@
+{% load blog_tags %}
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
@@ -20,8 +21,31 @@
     </div>
 
     <div id="sidebar">
-        <h2>📽 Киноблог Старинского</h2>
-        <p>Меню.</p>
+        <p>
+            <h2>📽 Киноблог Старинского</h2>            
+        </p>
+
+        <!-- подпискa на Новостная лента -->
+        <p>
+            <a href="{% url "blog:post_feed" %}">
+                Подпишитесь на мою новостную RSS-ленту
+            </a>            
+        </p>
+
+        <h3>Последние 3 поста:</h3>
+        {% show_latest_posts 3 %}
+
+        <h3>Самые комментируемые посты (3 шт)</h3>
+        {% get_most_commented_posts as most_commented_posts %}
+        <ul>
+            {% for post in most_commented_posts %}
+            <li>
+                <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        
+        <h3>Меню.</h3>        
     </div>
     
 </body>

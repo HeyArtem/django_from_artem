@@ -2,7 +2,13 @@ from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
 from django.urls import reverse
+from taggit.managers import TaggableManager
 
+
+
+'''
+Набирай сайт по книге
+'''
 
 # конкретно-прикладной менеджер для модели Post, возвращает опубликованные посты 
 class PublishedManager(models.Manager):
@@ -29,9 +35,10 @@ class Post(models.Model):
     status = models.CharField(max_length=2,
                               choices=Status.choices,
                               default=Status.DRAFT)
-    
+        
     objects = models.Manager() # менеджер, применяемый по умолчанию
     published = PublishedManager() # конкретно-прикладной менеджер
+    tags = TaggableManager()
 
     class Meta:
         ordering = ['-publish']
@@ -64,9 +71,13 @@ class Comment(models.Model):
     post = models.ForeignKey(Post,
                              on_delete=models.CASCADE,
                              related_name='comments')
-    name = models.CharField(max_length=80)
-    email = models.EmailField()
-    body = models.TextField()
+    # name = models.CharField(max_length=80)
+
+    # замена name на Имя
+    Имя = models.CharField(max_length=80)
+    # email = models.EmailField()
+    # body = models.TextField()
+    Комментарий = models.TextField()
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
     active = models.BooleanField(default=True)
@@ -78,4 +89,4 @@ class Comment(models.Model):
         ]
 
     def __str__(self):
-        return f"Comment by {self.name} on {self.post}"
+        return f"Comment by {self.Имя} on {self.post}"

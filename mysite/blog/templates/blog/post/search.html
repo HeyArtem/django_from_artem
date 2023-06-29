@@ -1,0 +1,43 @@
+{% extends "blog/base.html" %}
+{% load blog_tags %}
+
+<!-- шаблон отображения формы и результатов при выполнении пользователем поиска. -->
+
+{% block title %}
+    Search
+{% endblock %}
+
+{% block content %}
+    {% if query %}
+        <h1>Пост содержащий "{{ query }}"</h1>
+        <h3>
+            {% with results.count as total_results %}
+                <!-- что бы не добавлялась буква 's' во множ числе -->
+                <!-- Найдено {{ total_results }} результата {{ total_results|pluralize }} -->
+                
+                Найдено {{ total_results }} результата 
+            {% endwith %}
+        </h3>
+
+        {% for post in results %}
+            <h4>
+                <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+            </h4>
+            {{ post.body|markdown|truncatewords_html:12 }}
+
+        {% empty %}
+            <p>К сожелению ни чего не найдено.</p>
+        
+        {% endfor %}
+
+        <p><a href="{% url "blog:post_search" %}">Искать снова</a></p>
+
+    {% else %}
+        <h1>Поиск поста</h1>
+        <form method="get">
+            {{ form.as_p }}
+            <input type="submit" value="Искать!">
+        </form>
+    
+    {% endif %}
+{% endblock %}

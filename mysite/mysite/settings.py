@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-v1l&afm@mw=xh+53v^)3w939q#-p@ss1qd-%z0qf!%b&vuu&z#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 SITE_ID = 1
 
@@ -82,13 +82,24 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'db_blog2',
+#         'USER': 'blog2',
+#         'PASSWORD': 'blog2',
+#         'HOST': 'localhost',
+#     }
+# }
+
+# с myswl
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'db_blog2',
-        'USER': 'blog2',
-        'PASSWORD': 'blog2',
-        'HOST': 'localhost',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'u1807367_default',
+        'USER': 'u1807367_default',
+        'PASSWORD': 'GR5hJH9wB37XGgt8',
+        'HOST': 'localhost',        
     }
 }
 

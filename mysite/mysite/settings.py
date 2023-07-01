@@ -95,10 +95,10 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # с myswl
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'u1807367_default',
-        'USER': 'u1807367_default',
-        'PASSWORD': 'GR5hJH9wB37XGgt8',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'kinoblog',
+        'USER': 'artem',
+        'PASSWORD': 'admin',
         'HOST': 'localhost',        
     }
 }
